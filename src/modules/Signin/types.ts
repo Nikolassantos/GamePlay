@@ -1,3 +1,3 @@
-import { StyleSheetProperties } from 'react-native';
-
-export interface IViewProps {}
+export interface IViewProps {
+  handleSignIn(): void;
+}
